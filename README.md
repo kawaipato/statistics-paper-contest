@@ -1,7 +1,7 @@
 # statistics-paper-contest
 통계청 공모전 (학부연구생)
 
-/table of index
+/table of contents
 
 # 통계청 공모전 대상(시계열관련)
 
