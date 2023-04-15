@@ -1,8 +1,6 @@
 # statistics-paper-contest
 통계청 공모전 (학부연구생)
 
-/table of contents
-
 # 통계청 공모전 대상(시계열관련)
 
 **2017 최우수상**
@@ -106,3 +104,77 @@ Markov-chain
 강조해야 할 또 다른 문제는 1962년에 기록된 널리 분산된 데이터와 비교하여 2012년 데이터의 분산이 감소했기 때문에 **분석 변수 간의 상관관계가 시간이 지남에 따라 어떻게 강도를 잃는가** (분산이 다르면 어떤 차이가 생길까?)하는 것입니다. Hofman(2011)에서 인용한 바와 같이 기대 수명이 긴 사람은 자신의 통합적 자기 관리에 더 큰 중요성을 부여하기 때문에 더 적은 수의 자녀를 갖는 경향이 있으며 따라서 더 많은 개인 시간을 가질 수 있음을 나타냅니다. 그/그녀에게 매우 중요한 프로젝트를 수행하는 것, 즉 자녀를 갖는 것은 상당한 비용을 의미하기 때문에 그/그녀는 자신의 삶의 질에 더 큰 중요성을 부여합니다.
 
 [https://vox.lacea.org/?q=blog/life_expectancy_fertility](https://vox.lacea.org/?q=blog/life_expectancy_fertility)
+
+# 관련 코딩
+
+- Cross-Correlation with 최저임금, 기혼건수
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+path = "/Users/seoihwan/Desktop/escuela/통계청 공모전"
+money = pd.read_csv(path+'/money.csv',encoding='utf-8')
+marry = pd.read_csv(path+'/marry.csv',encoding='utf-8')
+
+money.head()
+
+money2=money[9:-1]
+
+money2.columns
+
+m=money2.iloc[:,1]
+
+plt.plot(range(1997,2023),m)
+plt.title('money')
+
+marry.head()
+
+plt.plot(mar)
+plt.title('marry')
+
+def crosscorr(x,y,l):
+    L=[]
+    for i in range(len(x)-l):
+        s1=0
+        s2=0
+        s3=0
+        for j in range(i,i+l):
+            s1+=(x[j]-np.mean(x[i:i+l]))*(y[j]-np.mean(y[i:i+l]))
+            s2+=(x[j]-np.mean(x[i:i+l]))**2
+            s3+=(y[j]-np.mean(y[i:i+l]))**2
+        L.append(s1/((s3**0.5)*(s2**0.5)))
+    return L
+
+mar=marry.iloc[:,1]
+print(len(mar))
+
+m=np.array(m)
+mar=np.array(mar).astype(int)
+
+len(m) == len(mar)
+
+crosscorr(m2,mar,10)
+
+np.mean()
+
+m2=[]
+for i in range(len(m)):
+    s=m[i].replace(',','')
+    m2.append(s)
+
+m2=np.array(m2).astype(int)
+
+ll=[10,15,20]
+for i in range(len(ll)):
+    a=crosscorr(m2,mar,ll[i])
+    plt.plot(range(ll[i],ll[i]+len(a)),a)
+plt.legend(ll)
+plt.title('Cross-Correlation l=10,15,20')
+plt.axhline(0,color='red',linestyle='--')
+plt.show()
+
+```
+![image](https://user-images.githubusercontent.com/128393917/232242310-0a1e9d12-e1ca-46e0-b7b8-ac66f1694cfb.png)
+
