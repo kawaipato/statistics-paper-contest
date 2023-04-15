@@ -11,13 +11,13 @@
 
 우리나라 각 지역별로 노동시장 의 수급변화에 적절히 대응하고, 지역 경쟁력을 제고 할 수 있도록 지역기반 노동인력의 구조 및 분포 현황 을 바탕으로 향후 지역별 노동인력의 직업구조에 어 떠한 변화가 발생할 것인지 예측해보는 것이다
 
-2019 장려상
+**2019 장려상**
 
 **혼합빈도 벡터자기회귀모형을 이용한 금융부문 불확실성이 소비에 미치는 영향 분석 - 가구의 이질성을 중심으로**
 
 **[https://sri.kostat.go.kr/board.es?mid=a90206010200&bid=11911&act=view&list_no=377856](https://sri.kostat.go.kr/board.es?mid=a90206010200&bid=11911&act=view&list_no=377856)**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6ea97920-1d04-408e-a732-48c0af755b1f/Untitled.png)
+![image](https://user-images.githubusercontent.com/128393917/232241971-31c8d511-8442-44aa-88d6-f49fc64eec0d.png)
 
 - 연구의 주제는 거의 최근 3~4년 개정된 법과 관련되어 법 개정 전,후를 비교하는 분석이 많았음.
 
@@ -97,9 +97,9 @@ Markov-chain
 
 주민등록연양인구 : 출생률과 사망률을 산출할 때 한 해의 중간인 7월1일을 기준으로 하여 산출한 인구를 말한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/00dfb85a-47c3-43ec-a6e8-839aeab6df99/Untitled.png)
+![image](https://user-images.githubusercontent.com/128393917/232242004-e2721280-e72f-4a30-ba4d-14db1e6171a3.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2a8623e-1efb-4721-b348-13f2af990da9/Untitled.png)
+![image](https://user-images.githubusercontent.com/128393917/232242028-0fdf9d81-0363-4cca-99ad-d7f49fca0052.png)
 
 강조해야 할 또 다른 문제는 1962년에 기록된 널리 분산된 데이터와 비교하여 2012년 데이터의 분산이 감소했기 때문에 **분석 변수 간의 상관관계가 시간이 지남에 따라 어떻게 강도를 잃는가** (분산이 다르면 어떤 차이가 생길까?)하는 것입니다. Hofman(2011)에서 인용한 바와 같이 기대 수명이 긴 사람은 자신의 통합적 자기 관리에 더 큰 중요성을 부여하기 때문에 더 적은 수의 자녀를 갖는 경향이 있으며 따라서 더 많은 개인 시간을 가질 수 있음을 나타냅니다. 그/그녀에게 매우 중요한 프로젝트를 수행하는 것, 즉 자녀를 갖는 것은 상당한 비용을 의미하기 때문에 그/그녀는 자신의 삶의 질에 더 큰 중요성을 부여합니다.
 
