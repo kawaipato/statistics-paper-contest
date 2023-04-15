@@ -179,8 +179,7 @@ plt.show()
 ![image](https://user-images.githubusercontent.com/128393917/232243481-3774e5fa-d9e7-4e18-a40a-b5f97d513cde.png)
 
 - CPI, Birth rate, Holidays
-```python
-import pandas as pd
+```pythonimport pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
@@ -298,7 +297,7 @@ for i in range(len(ll)):
     a=crosscorr(t2,birth_b,ll[i])
     plt.plot(range(ll[i],ll[i]+len(a)),a)
 plt.legend(ll)
-plt.title('Cross-Correlation l=10,15,20')
+plt.title('80~22 중졸이하 Cross-Correlation l=10,15,20')
 plt.axhline(0,color='red',linestyle='--')
 plt.show()
 
@@ -307,9 +306,20 @@ for i in range(len(ll)):
     a=crosscorr(t3,birth_b,ll[i])
     plt.plot(range(ll[i],ll[i]+len(a)),a)
 plt.legend(ll)
-plt.title('80~22 중졸 Cross-Correlation l=10,15,20')
+plt.title('80~22 고졸 Cross-Correlation l=10,15,20')
 plt.axhline(0,color='red',linestyle='--')
 plt.show()
+
+ll=[10,15,20]
+for i in range(len(ll)):
+    a=crosscorr(t4,birth_b,ll[i])
+    plt.plot(range(ll[i],ll[i]+len(a)),a)
+plt.legend(ll)
+plt.title('80~22 대졸이상 Cross-Correlation l=10,15,20')
+plt.axhline(0,color='red',linestyle='--')
+plt.show()
+
+
 ```
 ![image](https://user-images.githubusercontent.com/128393917/232242763-4452ede9-f3c6-4d38-b34b-1e661bcc54d8.png)
 
@@ -321,7 +331,8 @@ plt.show()
 
 ![image](https://user-images.githubusercontent.com/128393917/232243037-3cd40bee-9c6e-44e8-ba13-3671d9ae9f81.png)
 
-![image](https://user-images.githubusercontent.com/128393917/232243089-e575d0bb-224b-417e-a055-9687a0854e49.png)
+![image](https://user-images.githubusercontent.com/128393917/232244026-2d6f381b-1192-48bb-8b77-c249e5d08b62.png)
 
-![image](https://user-images.githubusercontent.com/128393917/232243151-37081e1c-516a-4fa2-8f54-b4e1fee8c32d.png)
+![image](https://user-images.githubusercontent.com/128393917/232244063-4f91f894-4c59-4d45-9bd2-2324529bfa07.png)
+
 
