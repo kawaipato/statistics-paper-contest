@@ -17,7 +17,7 @@
 
 **[https://sri.kostat.go.kr/board.es?mid=a90206010200&bid=11911&act=view&list_no=377856](https://sri.kostat.go.kr/board.es?mid=a90206010200&bid=11911&act=view&list_no=377856)**
 
-![image](https://user-images.githubusercontent.com/128393917/232243345-b27b8bc2-451f-48ff-8343-4b6388e23699.png)
+![image](https://user-images.githubusercontent.com/128393917/232243581-58d99d2e-c3bd-414d-aa40-089dbf4e788c.png)
 
 - 연구의 주제는 거의 최근 3~4년 개정된 법과 관련되어 법 개정 전,후를 비교하는 분석이 많았음.
 
@@ -176,7 +176,7 @@ plt.axhline(0,color='red',linestyle='--')
 plt.show()
 
 ```
-![image](https://user-images.githubusercontent.com/128393917/232242310-0a1e9d12-e1ca-46e0-b7b8-ac66f1694cfb.png)
+![image](https://user-images.githubusercontent.com/128393917/232243481-3774e5fa-d9e7-4e18-a40a-b5f97d513cde.png)
 
 - CPI, Birth rate, Holidays
 ```python
