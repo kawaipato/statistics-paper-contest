@@ -178,3 +178,150 @@ plt.show()
 ```
 ![image](https://user-images.githubusercontent.com/128393917/232242310-0a1e9d12-e1ca-46e0-b7b8-ac66f1694cfb.png)
 
+- CPI, Birth rate, Holidays
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+
+import matplotlib.pyplot as plt
+from matplotlib import rc
+import seaborn as sns
+%matplotlib inline
+rc('font', family='AppleGothic')
+
+plt.rcParams['axes.unicode_minus'] = False
+
+def crosscorr(x,y,l):
+    L=[]
+    for i in range(len(x)-l):
+        s1=0
+        s2=0
+        s3=0
+        for j in range(i,i+l):
+            s1+=(x[j]-np.mean(x[i:i+l]))*(y[j]-np.mean(y[i:i+l]))
+            s2+=(x[j]-np.mean(x[i:i+l]))**2
+            s3+=(y[j]-np.mean(y[i:i+l]))**2
+        L.append(s1/((s3**0.5)*(s2**0.5)))
+    return L
+
+birth = pd.read_csv('./birth.csv',encoding='cp949')
+cpi = pd.read_csv('./cpi.csv',encoding='cp949')
+holi = pd.read_csv('./holiday.csv',encoding='cp949')
+
+birth.head()
+
+cpi.head()
+
+holi.head()
+
+len(cpi) == len(birth)
+
+print("length of cpi :",len(cpi))
+print("length of birth :",len(birth))
+
+cpi2 = cpi[5:]
+
+cpi_a = cpi2['전국'].tolist()
+birth_a = birth.iloc[:,5].tolist()
+
+ll=[10,15,20]
+for i in range(len(ll)):
+    a=crosscorr(cpi_a,birth_a,ll[i])
+    plt.plot(range(ll[i],ll[i]+len(a)),a)
+plt.legend(ll)
+plt.title('\'70~22 brith-CPI Cross-Correlation l=10,15,20')
+plt.axhline(0,color='red',linestyle='--')
+plt.show()
+
+ll=[10,15,20]
+for i in range(len(ll)):
+    a=crosscorr(cpi_a,birth_a,ll[i])
+    plt.plot(range(ll[i],ll[i]+len(a)),a)
+plt.legend(ll)
+plt.title('Cross-Correlation l=10,15,20')
+plt.axhline(0,color='red',linestyle='--')
+plt.show()
+
+job=pd.read_csv('./job.csv',encoding='cp949')
+job.head()
+
+total_job=job[(job['성별']=='계')]
+woman_job=job[(job['성별']=='여자')]
+man_job=job[(job['성별']=='남자')]
+
+t1=total_job[(total_job.시점 >= 1970)].계.tolist()
+w1=woman_job[(woman_job.시점 >= 1970)].계.tolist()
+m1=man_job[(man_job.시점 >= 1970)].계.tolist()
+
+ll=[10,15,20]
+for i in range(len(ll)):
+    a=crosscorr(t1,birth_a,ll[i])
+    plt.plot(range(ll[i],ll[i]+len(a)),a)
+plt.legend(ll)
+plt.title('total job/birth Cross-Correlation l=10,15,20')
+plt.axhline(0,color='red',linestyle='--')
+plt.show()
+
+ll=[10,15,20]
+for i in range(len(ll)):
+    a=crosscorr(w1,birth_a,ll[i])
+    plt.plot(range(ll[i],ll[i]+len(a)),a)
+plt.legend(ll)
+plt.title('woman job/birth Cross-Correlation l=10,15,20')
+plt.axhline(0,color='red',linestyle='--')
+plt.show()
+
+ll=[10,15,20]
+for i in range(len(ll)):
+    a=crosscorr(m1,birth_a,ll[i])
+    plt.plot(range(ll[i],ll[i]+len(a)),a)
+plt.legend(ll)
+plt.title('man_job/birth Cross-Correlation l=10,15,20')
+plt.axhline(0,color='red',linestyle='--')
+plt.show()
+
+plt.plot(m1,color='red',label='man')
+plt.plot(t1,color='green',label='total')
+plt.plot(w1,color='blue',label='woman')
+plt.legend()
+plt.show()
+
+t2=list(map(int,total_job[(total_job.시점>=1980)].중졸이하.tolist()))
+t3=list(map(int,total_job[(total_job.시점>=1980)].고졸.tolist()))
+t4=list(map(int,total_job[(total_job.시점>=1980)].대졸이상.tolist()))
+birth_b=birth.iloc[10:,5].tolist()
+
+ll=[10,15,20]
+for i in range(len(ll)):
+    a=crosscorr(t2,birth_b,ll[i])
+    plt.plot(range(ll[i],ll[i]+len(a)),a)
+plt.legend(ll)
+plt.title('Cross-Correlation l=10,15,20')
+plt.axhline(0,color='red',linestyle='--')
+plt.show()
+
+ll=[10,15,20]
+for i in range(len(ll)):
+    a=crosscorr(t3,birth_b,ll[i])
+    plt.plot(range(ll[i],ll[i]+len(a)),a)
+plt.legend(ll)
+plt.title('80~22 중졸 Cross-Correlation l=10,15,20')
+plt.axhline(0,color='red',linestyle='--')
+plt.show()
+```
+![image](https://user-images.githubusercontent.com/128393917/232242763-4452ede9-f3c6-4d38-b34b-1e661bcc54d8.png)
+
+![image](https://user-images.githubusercontent.com/128393917/232242920-95eaf08b-bc8c-49ed-ba56-0d79f9edb1ba.png)
+
+![image](https://user-images.githubusercontent.com/128393917/232242957-7f6b29b2-eff9-4be1-a6c7-59652e1de6b4.png)
+
+![image](https://user-images.githubusercontent.com/128393917/232243000-ac48540a-0869-40ba-9f12-7c8e3c4d2abc.png)
+
+![image](https://user-images.githubusercontent.com/128393917/232243037-3cd40bee-9c6e-44e8-ba13-3671d9ae9f81.png)
+
+![image](https://user-images.githubusercontent.com/128393917/232243089-e575d0bb-224b-417e-a055-9687a0854e49.png)
+
+![image](https://user-images.githubusercontent.com/128393917/232243151-37081e1c-516a-4fa2-8f54-b4e1fee8c32d.png)
+
