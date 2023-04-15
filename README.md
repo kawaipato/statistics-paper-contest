@@ -17,7 +17,7 @@
 
 **[https://sri.kostat.go.kr/board.es?mid=a90206010200&bid=11911&act=view&list_no=377856](https://sri.kostat.go.kr/board.es?mid=a90206010200&bid=11911&act=view&list_no=377856)**
 
-![image](https://user-images.githubusercontent.com/128393917/232241971-31c8d511-8442-44aa-88d6-f49fc64eec0d.png)
+![image](https://user-images.githubusercontent.com/128393917/232243345-b27b8bc2-451f-48ff-8343-4b6388e23699.png)
 
 - 연구의 주제는 거의 최근 3~4년 개정된 법과 관련되어 법 개정 전,후를 비교하는 분석이 많았음.
 
