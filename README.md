@@ -342,13 +342,13 @@ plt.show()
 </figure>
 
 <figure class="third">
-    <p>
+    <a href="link">
         <image src="https://user-images.githubusercontent.com/128393917/232273870-6655857e-3465-458f-a4a4-c5a4ccf21b76.png" width="300"/>
-    </p>
-    <p>
+    </a>
+    <a href="link">
         <image src="https://user-images.githubusercontent.com/128393917/232273887-73731d0b-41ec-4b95-9a86-10ed34b6e3a0.png" width="300"/>
-    </p>
-    <p>
+    </a>
+    <a href="link">
         <image src="https://user-images.githubusercontent.com/128393917/232273916-5f83e2d6-e300-4819-bfb6-ad2b24b7e94a.png" width="300"/>
-    </p>
+    </a>
 </figure>
