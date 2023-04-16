@@ -336,13 +336,13 @@ plt.show()
 ![image](https://user-images.githubusercontent.com/128393917/232244063-4f91f894-4c59-4d45-9bd2-2324529bfa07.png)
 
 <figure class="third">
-![image](https://user-images.githubusercontent.com/128393917/232273836-e71154dd-c99c-400e-82b0-ebc8618ba8a2.png)
-![image](https://user-images.githubusercontent.com/128393917/232273843-97f2cb73-e681-4f27-9ac4-489e9a03ddad.png)
-![image](https://user-images.githubusercontent.com/128393917/232273846-d05b77a5-1390-40ce-b124-c41c1044b96f.png)
+    <image src=https://user-images.githubusercontent.com/128393917/232273836-e71154dd-c99c-400e-82b0-ebc8618ba8a2.png>
+    <image src=https://user-images.githubusercontent.com/128393917/232273843-97f2cb73-e681-4f27-9ac4-489e9a03ddad.png>
+    <image src=https://user-images.githubusercontent.com/128393917/232273846-d05b77a5-1390-40ce-b124-c41c1044b96f.png>
 </figure>
 
 <figure class="third">
-![image](https://user-images.githubusercontent.com/128393917/232273870-6655857e-3465-458f-a4a4-c5a4ccf21b76.png)
-![image](https://user-images.githubusercontent.com/128393917/232273887-73731d0b-41ec-4b95-9a86-10ed34b6e3a0.png)
-![image](https://user-images.githubusercontent.com/128393917/232273916-5f83e2d6-e300-4819-bfb6-ad2b24b7e94a.png)
+    <image src=https://user-images.githubusercontent.com/128393917/232273870-6655857e-3465-458f-a4a4-c5a4ccf21b76.png>
+    <image src=https://user-images.githubusercontent.com/128393917/232273887-73731d0b-41ec-4b95-9a86-10ed34b6e3a0.png>
+    <image src=https://user-images.githubusercontent.com/128393917/232273916-5f83e2d6-e300-4819-bfb6-ad2b24b7e94a.png>
 </figure>
