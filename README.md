@@ -337,19 +337,25 @@ plt.show()
 
 <figure class="third">
     
-    <a href="link"><image src="https://user-images.githubusercontent.com/128393917/232273836-e71154dd-c99c-400e-82b0-ebc8618ba8a2.png" width="400"/></a>
-    <a href="link"><image src="https://user-images.githubusercontent.com/128393917/232273843-97f2cb73-e681-4f27-9ac4-489e9a03ddad.png" width="400"/></a>
-    <a href="link"><image src="https://user-images.githubusercontent.com/128393917/232273846-d05b77a5-1390-40ce-b124-c41c1044b96f.png" width="400"/></a>
+    <a href="link">
+        <image src="https://user-images.githubusercontent.com/128393917/232273836-e71154dd-c99c-400e-82b0-ebc8618ba8a2.png" width="350"/>
+    </a>
+    <a href="link">
+        <image src="https://user-images.githubusercontent.com/128393917/232273843-97f2cb73-e681-4f27-9ac4-489e9a03ddad.png" width="350"/>
+    </a>
+    <a href="link">
+        <image src="https://user-images.githubusercontent.com/128393917/232273846-d05b77a5-1390-40ce-b124-c41c1044b96f.png" width="350"/>
+    </a>
 </figure>
 
 <figure class="third">
     <a href="link">
-        <image src="https://user-images.githubusercontent.com/128393917/232273870-6655857e-3465-458f-a4a4-c5a4ccf21b76.png" width="400"/>
+        <image src="https://user-images.githubusercontent.com/128393917/232273870-6655857e-3465-458f-a4a4-c5a4ccf21b76.png" width="350"/>
     </a>
     <a href="link">
-        <image src="https://user-images.githubusercontent.com/128393917/232273887-73731d0b-41ec-4b95-9a86-10ed34b6e3a0.png" width="400"/>
+        <image src="https://user-images.githubusercontent.com/128393917/232273887-73731d0b-41ec-4b95-9a86-10ed34b6e3a0.png" width="350"/>
     </a>
     <a href="link">
-        <image src="https://user-images.githubusercontent.com/128393917/232273916-5f83e2d6-e300-4819-bfb6-ad2b24b7e94a.png" width="400"/>
+        <image src="https://user-images.githubusercontent.com/128393917/232273916-5f83e2d6-e300-4819-bfb6-ad2b24b7e94a.png" width="350"/>
     </a>
 </figure>
