@@ -358,3 +358,5 @@ plt.show()
         <image src="https://user-images.githubusercontent.com/128393917/232273916-5f83e2d6-e300-4819-bfb6-ad2b24b7e94a.png" width="300"/>
     </a>
 </figure>
+
+통신매체의 발달/취업을 왜 못하는지->대학진학률,사회적인식(취준생의 인식) 일자리 퀄리티 기대치 증가/남성의 가정 심리적부담/기성세대와의 현재세대간의 사회적 차이
