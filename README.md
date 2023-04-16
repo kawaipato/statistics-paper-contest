@@ -337,13 +337,13 @@ plt.show()
 
 <figure class="third">    
     <b href="link">
-        <image src="https://user-images.githubusercontent.com/128393917/232273836-e71154dd-c99c-400e-82b0-ebc8618ba8a2.png" width="350"/>
+        <image src="https://user-images.githubusercontent.com/128393917/232273836-e71154dd-c99c-400e-82b0-ebc8618ba8a2.png" width="300"/>
     </b>
     <b href="link">
-        <image src="https://user-images.githubusercontent.com/128393917/232273843-97f2cb73-e681-4f27-9ac4-489e9a03ddad.png" width="350"/>
+        <image src="https://user-images.githubusercontent.com/128393917/232273843-97f2cb73-e681-4f27-9ac4-489e9a03ddad.png" width="300"/>
     </b>
-    < href="link">
-        <image src="https://user-images.githubusercontent.com/128393917/232273846-d05b77a5-1390-40ce-b124-c41c1044b96f.png" width="350"/>
+    <b href="link">
+        <image src="https://user-images.githubusercontent.com/128393917/232273846-d05b77a5-1390-40ce-b124-c41c1044b96f.png" width="300"/>
     </b>
 </figure>
 
