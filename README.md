@@ -363,21 +363,21 @@ plt.show()
 기대수명/인프라(사회기반시설)/ (담양 출산율 높아진거 찾아보기) / 아이보육제도 부
 
 # 관련 데이터 정보
-통계청,「인구동향조사」, 2022, 2023.04.20, 혼인건수, 조혼인율 / 연도별 70 ~ 22
-https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1B8000F_03&conn_path=I2
-통계청,「인구동향조사」, 2022.12, 2023.04.20, 시도/시군구/월별 혼인 / 월별 70.01 ~ 22.12
-https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B83A35&conn_path=I2
-통계청,「인구동향조사」, 2022, 2023.04.20, 출생아수, 합계출산율, 자연증가 등 / 70 ~ 22
-https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1B8000F_01&conn_path=I2
-통계청,「인구동향조사」, 2021.12, 2023.04.20, 시군구/성/월별 출생 / 70.01 ~ 21.12
-https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B81A01&conn_path=I2
+통계청,「인구동향조사」, 2022, 2023.04.20, 혼인건수, 조혼인율 / 연도별 70 ~ 22  
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1B8000F_03&conn_path=I2  
+통계청,「인구동향조사」, 2022.12, 2023.04.20, 시도/시군구/월별 혼인 / 월별 70.01 ~ 22.12  
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B83A35&conn_path=I2  
+통계청,「인구동향조사」, 2022, 2023.04.20, 출생아수, 합계출산율, 자연증가 등 / 70 ~ 22  
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1B8000F_01&conn_path=I2  
+통계청,「인구동향조사」, 2021.12, 2023.04.20, 시군구/성/월별 출생 / 70.01 ~ 21.12  
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B81A01&conn_path=I2  
 ### Exogeonous variables
-통계청,「소비자물가조사」, 2023.03, 2023.04.20, 지출목적별 소비자물가지수(품목포함, 2020=100) / 70 ~ 22 -> 소비자물가지수가 생필품.주류.주택으로 나눠진건 85년부터 월별도 똑같이 존재
-https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B81A01&conn_path=I2
-![image](https://user-images.githubusercontent.com/128393917/233384530-d933f1b7-6d89-42c9-ba67-c2310cd311d3.png)
--> 취업률은 많은 데이터의 추가 필요가 있어서 구하기 쉬운 실업률을 사용하기로 했다. 또한 취업률은 우리나라의 인구가 증가하는 추세기 때문에 정규화를 하면 수치에 문제가 생길 것이라 생각했다.
-통계청,「경제활동인구조사」, 2023.03, 2023.04.20, 성/교육정도별 실업률 / 99.06 ~ 22.12 / 00 ~ 22
-https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DA7103S&conn_path=I2
+통계청,「소비자물가조사」, 2023.03, 2023.04.20, 지출목적별 소비자물가지수(품목포함, 2020=100) / 70 ~ 22 -> 소비자물가지수가 생필품.주류.주택으로 나눠진건 85년부터 월별도 똑같이 존재  
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B81A01&conn_path=I2  
+![image](https://user-images.githubusercontent.com/128393917/233384530-d933f1b7-6d89-42c9-ba67-c2310cd311d3.png)  
+-> 취업률은 많은 데이터의 추가 필요가 있어서 구하기 쉬운 실업률을 사용하기로 했다. 또한 취업률은 우리나라의 인구가 증가하는 추세기 때문에 정규화를 하면 수치에 문제가 생길 것이라 생각했다.  
+통계청,「경제활동인구조사」, 2023.03, 2023.04.20, 성/교육정도별 실업률 / 99.06 ~ 22.12 / 00 ~ 22  
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DA7103S&conn_path=I2  
 
 
 
