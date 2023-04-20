@@ -374,10 +374,8 @@ https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B81A01&conn_path=I2
 ### Exogeonous variables
 통계청,「소비자물가조사」, 2023.03, 2023.04.20, 지출목적별 소비자물가지수(품목포함, 2020=100) / 70 ~ 22 -> 소비자물가지수가 생필품.주류.주택으로 나눠진건 85년부터 월별도 똑같이 존재  
 https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B81A01&conn_path=I2  
-![image](https://user-images.githubusercontent.com/128393917/233384530-d933f1b7-6d89-42c9-ba67-c2310cd311d3.png)  
--> 취업률은 많은 데이터의 추가 필요가 있어서 구하기 쉬운 실업률을 사용하기로 했다. 또한 취업률은 우리나라의 인구가 증가하는 추세기 때문에 정규화를 하면 수치에 문제가 생길 것이라 생각했다.  
-통계청,「경제활동인구조사」, 2023.03, 2023.04.20, 성/교육정도별 실업률 / 99.06 ~ 22.12 / 00 ~ 22  
-https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DA7103S&conn_path=I2  
+통계청,「경제활동인구조사」, 2023.03, 2023.04.21, 성별 경제활동인구 총괄 / 99.06 ~ 22.12
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1DA7001S&conn_path=I2
 
 
 
