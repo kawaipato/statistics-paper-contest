@@ -366,7 +366,9 @@ plt.show()
 통계청,「인구동향조사」, 2022, 2023.04.20, 혼인건수, 조혼인율 / 연도별 70 ~ 22  
 https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1B8000F_03&conn_path=I2  
 통계청,「인구동향조사」, 2022.12, 2023.04.20, 시도/시군구/월별 혼인 / 월별 70.01 ~ 22.12  
-https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B83A35&conn_path=I2  
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B83A35&conn_path=I2
+통계청,「인구동향조사」, 2023.01, 2023.04.21, 월.분기.연간 인구동향(출생,사망,혼인,이혼)/ 조혼인율 20.01 ~ 22.12  
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1B8000G&conn_path=I2
 통계청,「인구동향조사」, 2022, 2023.04.20, 출생아수, 합계출산율, 자연증가 등 / 70 ~ 22  
 https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1B8000F_01&conn_path=I2  
 통계청,「인구동향조사」, 2021.12, 2023.04.20, 시군구/성/월별 출생 / 70.01 ~ 21.12  
